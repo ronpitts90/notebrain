@@ -1,6 +1,6 @@
 var express = require("express");
-var apiRoute = require("./routes/apiRoute");
-var htmlRoute = require("./routes/htmlRoute");
+var apiRoute = require("./routes/apiRoutes.js");
+var htmlRoute = require("./routes/htmlRoutes.js");
 
 // express up setup
 var app = express();
@@ -21,6 +21,6 @@ app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
   });
 
-  
+
   // require("./routes/apiroutes")(app);
 // require("./routes/htmlroutes")(app);
