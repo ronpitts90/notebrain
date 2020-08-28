@@ -1,6 +1,6 @@
 # notebrain
 
-## note_taker
+## notebrain
 This application has the ability to save, edit, and delete notes in a local host server
 
 ## User Story
