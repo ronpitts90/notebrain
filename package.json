@@ -1,14 +1,21 @@
 {
-  "name": "note-taker",
+  "name": "notebrain",
   "version": "1.0.0",
-  "description": "",
+  "description": "## notebrain This application has the ability to save, edit, and delete notes in a local host server",
   "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-      "start": "node server.js"
-   },
-  "author": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronpitts90/notebrain.git"
+  },
+  "author": "ron p",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "bugs": {
+    "url": "https://github.com/ronpitts90/notebrain/issues"
+  },
+  "homepage": "https://github.com/ronpitts90/notebrain#readme"
 }
